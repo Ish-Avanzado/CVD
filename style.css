@@ -372,13 +372,19 @@ img {
   margin-bottom: 5rem;
 }
 
-/* SERVICES */
-.services .services__detail {
+/* SERVICES web and social */
+.servicesWeb,
+.servicesSocial {
   padding: 5rem 0;
+  background: var(--clr-light);
+}
+.servicesWeb .servicesWeb__item,
+.servicesSocial .servicesSocial__item {
   display: flex;
   justify-content: space-between;
 }
-.services .services__detail--info h2 {
+.servicesWeb .servicesWeb__item--info h2,
+.servicesSocial .servicesSocial__item--info h2 {
   color: var(--clr-primary);
   font-size: clamp(3.5rem, 6vw, 5rem);
   font-weight: bold;
@@ -386,47 +392,51 @@ img {
   margin-bottom: 5rem;
 }
 
-.services .services__detail--info p {
+.servicesWeb .servicesWeb__item--info p,
+.servicesSocial .servicesSocial__item--info p {
   font-size: 16px;
   margin-bottom: 2rem;
   max-width: 60rem;
   text-align: justify;
 }
 
-.services .services__detail--info h6 {
+.servicesWeb .servicesWeb__item--info h6,
+.servicesSocial .servicesSocial__item--info h6 {
   font-size: 16px;
   margin-top: 5rem;
 }
 
-.services .services__detail--info h3 {
+.servicesWeb .servicesWeb__item--info h3,
+.servicesSocial .servicesSocial__item--info h3 {
   color: var(--clr-primary);
   font-weight: bold;
   font-size: clamp(2.5rem, 6vw, 3rem);
 }
-.services .services__detail--info small {
+.servicesWeb .servicesWeb__item--info small,
+.servicesSocial .servicesSocial__item--info small {
   font-style: italic;
   font-size: 12px;
 }
 
-.services .services__items--arrowDown {
-    text-align: center;
+.servicesWeb .servicesWeb__item--arrowDown,
+.servicesSocial .servicesSocial__item--arrowDown {
+  text-align: center;
   font-size: 3rem;
 }
-.services .services__items--arrowDown  a i {
+.servicesWeb .servicesWeb__item--arrowDown a i,
+.servicesSocial .servicesSocial__item--arrowDown a i {
   color: var(--clr-primary);
 }
 
-.services .services__wrapper:nth-child(2){
-  backgroun-color: var(--clr-secondary);
-}
-
-.services .services__detail--image img:first-child {
+.servicesWeb .servicesWeb__item--image img:first-child ,
+.servicesSocial .servicesSocial__item--image img:first-child{
   position: relative;
   width: 60rem;
   height: 60.5rem;
   right: 0;
 }
-.services .services__detail--image img:last-child {
+.servicesWeb .servicesWeb__item--image img:last-child,
+.servicesSocial .servicesSocial__item--image img:last-child {
   position: absolute;
   right: 0;
   margin-right: 2rem;
@@ -434,6 +444,65 @@ img {
   width: 60rem;
   height: 60.5rem;
 }
+
+/* SERVICES Graphic */
+.servicesGraphic {
+  padding: 5rem 0;
+  background: var(--clr-secondary);
+}
+.servicesGraphic .servicesGraphic__item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.servicesGraphic .servicesGraphic__item--info h2 {
+  color: var(--clr-primary);
+  font-size: clamp(3.5rem, 6vw, 5rem);
+  font-weight: bold;
+  max-width: 40rem;
+  margin-bottom: 5rem;
+}
+
+.servicesGraphic .servicesGraphic__item--info p {
+  font-size: 16px;
+  margin-bottom: 2rem;
+  max-width: 60rem;
+  text-align: justify;
+  color: var(--clr-light);
+}
+
+.servicesGraphic .servicesGraphic__item--info h6 {
+  font-size: 16px;
+  margin-top: 5rem;
+  color: var(--clr-light);
+}
+
+.servicesGraphic .servicesGraphic__item--info h3 {
+  color: var(--clr-primary);
+  font-weight: bold;
+  font-size: clamp(2.5rem, 6vw, 3rem);
+}
+.servicesGraphic .servicesGraphic__item--info small {
+  font-style: italic;
+  font-size: 12px;
+  color: var(--clr-light);
+}
+
+.servicesGraphic .servicesGraphic__items--arrowDown {
+  text-align: center;
+  font-size: 3rem;
+}
+.servicesGraphic .servicesGraphic__items--arrowDown a i {
+  color: var(--clr-primary);
+}
+
+/* UPDATES */
+
+.updatesLatest .updatesLatest__feature--icon i {
+  margin-right: 1rem;
+}
+
 
 /* REPEATABLE PATERNS */
 .btn {
