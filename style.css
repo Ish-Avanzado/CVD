@@ -265,7 +265,7 @@ img {
 .homeQuote .homeQuote__item h4 {
   color: var(--clr-primary);
   font-weight: bold;
-  font-size: clamp(1.5rem, 6vw, 2rem);
+  font-size: 2rem;
   margin: 2rem;
 }
 
@@ -310,7 +310,7 @@ img {
 .homeAboutme .homeAboutme__info h4 {
   color: var(--clr-primary);
   font-weight: bold;
-  font-size: clamp(1.5rem, 6vw, 2rem);
+  font-size: 2rem;
   margin-bottom: 5rem;
 }
 .homeAboutme .homeAboutme__info p {
@@ -335,7 +335,7 @@ img {
 
 .homeLatestTrends h2 {
   color: var(--clr-primary);
-  font-size: clamp(3.5rem, 6vw, 5rem);
+  font-size: 5rem;
   font-weight: bold;
 }
 .homeLatestTrends p {
@@ -364,7 +364,7 @@ img {
 
 .cta h4 {
   font-weight: bold;
-  font-size: clamp(1.5rem, 6vw, 2rem);
+  font-size: 2rem;
 }
 .cta p {
   font-size: 14px;
@@ -485,7 +485,7 @@ img {
 
 .aboutProject h2 {
   color: var(--clr-primary);
-  font-size: clamp(3.5rem, 6vw, 5rem);
+  font-size: 5rem;
   font-weight: bold;
 }
 .aboutProject p {
@@ -522,7 +522,7 @@ img {
 .servicesWeb .servicesWeb__item--info h2,
 .servicesSocial .servicesSocial__item--info h2 {
   color: var(--clr-primary);
-  font-size: clamp(3.5rem, 6vw, 5rem);
+  font-size: 5rem;
   font-weight: bold;
   max-width: 40rem;
   margin-bottom: 5rem;
@@ -546,7 +546,7 @@ img {
 .servicesSocial .servicesSocial__item--info h3 {
   color: var(--clr-primary);
   font-weight: bold;
-  font-size: clamp(2.5rem, 6vw, 3rem);
+  font-size: 3rem;
 }
 .servicesWeb .servicesWeb__item--info small,
 .servicesSocial .servicesSocial__item--info small {
@@ -590,7 +590,7 @@ img {
 }
 .servicesWeb .servicesWeb__item--info h2,
 .servicesSocial .servicesSocial__item--info h2 {
-  font-size: clamp(3.5rem, 6vw, 5rem);
+  font-size: 3.5rem;
   margin: 3rem 0;
 
 }
